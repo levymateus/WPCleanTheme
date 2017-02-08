@@ -1,0 +1,37 @@
+.header {
+  text-align: center;
+  background-size: cover;
+  background-color: #ECECEC;
+  padding: 4rem;
+}
+
+.header-subnav {
+  float: none;
+  position: relative;
+  top: 4rem;
+  text-align: center;
+  margin-bottom: 0; 
+}
+.header-subnav li {
+  float: none;
+  display: inline-block; 
+}
+.header-subnav li a {
+  padding: 0.9rem 1rem 0.75rem;
+  font-size: 0.875rem;
+  color: #515254;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px; 
+}
+.header-subnav li a.is-active {
+  background: rgba( 70, 87,120,1);
+  color: #ECECEC;
+}
+
+.header-subnav li a:hover {
+  background: rgba( 81, 82, 84,1);
+  color: #ECECEC;
+  transition: all .25s ease-in-out; 
+}

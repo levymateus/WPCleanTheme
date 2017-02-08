@@ -1,0 +1,76 @@
+.hero {
+  background: url('') no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; 
+}
+
+.hero h1 {
+  color: #8C8D8F;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+}
+
+.footer {
+  background-color: #ECECEC;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; 
+  position: relative;
+}
+
+.footer p.slogan {
+  color: #8C8D8F;
+  font-size: 1.8rem;
+  margin: 0 0 1rem; 
+}
+
+.footer p.copywrite {
+  color: #515254;
+  font-size: 0.8rem;
+  margin-top : 15px; 
+  margin-bottom: 15px;
+}
+
+.footer .links a {
+  list-style: none;
+  font-weight: none;
+  color: #6882B4;
+  padding: 3rem 0 2rem;
+  margin: 0; 
+}
+
+.footer .links a:hover {
+  color: #465778;
+}
+
+.info-list {
+  font-size: 0.98rem;
+  list-style: none;
+}
+
+.info-list li {
+  color: #515254;
+}
+
+.info-list li > a {
+  font-size: 1.2rem;
+}
+
+.info-list li a:hover{
+  color: #465778;
+}
+
+.footer .links a::after {
+  content: "•";
+  padding: 0 0.4rem 0 0.8rem; 
+}
+
+.footer .links a:last-child::after {
+  content: "";
+  padding: 0 0.4rem 0 0.8rem; 
+}
