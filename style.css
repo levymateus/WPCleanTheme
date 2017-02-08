@@ -1,0 +1,126 @@
+/* 
+Theme Name: Clean Theme
+Theme URI: none
+Description: A Simples theme for any site
+Author: Levy Mateus Macedo
+Author URI: none
+Version: 1.0
+*/
+
+@import url("./assets/css/foundation.css");
+@import url("./assets/fonts/foundation-icons/foundation-icons.css");
+@import url("./assets/css/header.css");
+@import url("./assets/css/footer.css");
+
+/* As hex codes */
+
+.color-0 { color: #ECECEC; }	/* Main color */
+.color-1 { color: #8C8D8F; }
+.color-2 { color: #465778; }
+.color-3 { color: #515254; }
+.color-4 { color: #6882B4; }
+
+* {
+	color: #515254;
+}
+body{
+	height: auto;
+}
+
+.wrap {
+	width: 960px;
+	margin: auto;
+}
+
+.site-title {
+	font-size: 62px;
+}
+
+.site-title a {
+	color: #fff;
+	text-shadow: 0px 5px 6px rgba( 81, 82, 84,1);
+	margin: 0px;
+}
+
+.site-branding .site-description {
+	font-size: 21px;
+	color: #FFF;
+}
+
+.branding-logo {
+	width: 100px;
+	height: 100px;
+}
+
+a.branding-logo {
+	display: inline-block;
+    padding-right: 1em;
+    vertical-align: middle;
+    width: auto;
+}
+
+.content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.category-title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.contact {
+	background-color: #fff;
+	text-align: center;
+}
+
+.header-entry {
+	margin-bottom: 60px;
+}
+
+.contact p {
+	font-size: 20px;
+}
+
+.personal-contact a::after {
+  /*content: "•";*/
+  content: "  ";
+  padding: 0 0.4rem 0 0.8rem; 
+}
+
+.footer ul.footer-links{
+	list-style: none;
+ }
+
+.footer li.page_item {
+    float: left;
+    /*padding: 5px 5px 5px 5px;*/
+    margin: 0;
+}
+
+.footer li.cat-item {
+    float: left;
+    /*padding: 5px 5px 5px 5px;*/
+    margin: 0;
+}
+.footer .footer-links li::after {
+  content: "•";
+  padding: 0 0.4rem 0 0.8rem; 
+}
+
+.footer .footer-links li:last-child::after {
+  content: '';
+  padding: 0 0.4rem 0 0.8rem; 
+} 
+
+.large i { font-size: 3rem; }
+
+.post-content{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-links {
+	display: inline-block;	
+	margin: 0;
+}
